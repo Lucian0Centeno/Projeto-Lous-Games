@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+  <html lang="pt-br">
+       <head>
+	        <title>Carrinho</title>
+			<link rel="stylesheet" type="text/css" href="estilo_carrinho.css"/>
+			<link rel="icon" type="imagem/x-icon" href="./imagens/lotus_icon.png" />
+			<meta charset="utf-8"/>
+
+		<header id="cabecalho">
+		
+		<img src="./imagens/lotus_logo.png" width="60%" height="60%"/>
+		
+		</header>
+			<body>
+					
+					<h1 id="title">CARRINHO</h1>
+					
+					
+					<div>
+						<a onclick="eldenRegister()">
+							<img src="./imagens/elden.jpg" width="15%" height="30%"/>
+							<p id="elden-ring">Elden Ring</p>
+							<p id="elden-ring-value">R$ 250</p>
+						</a>
+					</div>
+					
+					<div>
+						<a onclick="forzaRegister()">
+							<img src="./imagens/forza.jpg" width="15%" height="30%"/>
+							<p id="forza">Forza 5</p>
+							<p id="forza-value">R$ 200</p>
+						</a>
+					</div>
+					
+					<div>
+						<a onclick="haloRegister()">
+							<img src="./imagens/halo.jpg" width="15%" height="30%"/>
+							<p id="halo">Halo Infinite</p>
+							<p id="halo-value">R$ 180</p>
+						</a>
+					</div>
+					
+					<div>
+						<a onclick="controleRegister()">
+							<img src="./imagens/controle.jpg" width="15%" height="30%"/>
+							<p id="controle">Controle Series X/S</p>
+							<p id="controle-value">R$ 350</p>
+						</a>
+					</div>
+					
+					<div>
+						<a onclick="seriesXRegister()">
+							<img src="./imagens/series_x.jpg" width="15%" height="30%"/>
+							<p id="seriesX">Console Xbox Series X</p>
+							<p id="seriesX-value">R$ 4350</p>
+						</a>
+					</div>
+					
+					<div>
+						<a onclick="seriesSRegister()">
+							<img src="./imagens/series_s.jpg" width="15%" height="30%"/>
+							<p id="seriesS">Console Xbox Series S</p>
+							<p id="seriesS-value">R$ 2600</p>
+						</a>
+					</div>
+					
+					<div>
+						<a onclick="ghostRegister()">
+							<img src="./imagens/ghost.jpg" width="15%" height="30%"/>
+							<p id="ghost">Ghost of Tsushima - Director´s Cut</p>
+							<p id="ghost-value">R$ 350</p>
+						</a>
+					</div>
+					
+					<div>
+						<a onclick="milesRegister()">
+							<img src="./imagens/miles.jpg" width="15%" height="30%"/>
+							<p id="miles">Spider-Man: Miles Morales</p>
+							<p id="miles-value">R$ 300</p>
+						</a>
+					</div>
+					
+					<div>
+						<a onclick="ratchetRegister()">
+							<img src="./imagens/ratchet.jpg" width="15%" height="30%"/>
+							<p id="ratchet">Ratchet and Clank: Rift Apart</p>
+							<p id="ratchet-value">R$ 200</p>
+						</a>
+					</div>
+					
+					<div>
+						<a onclick="tlou2Register()">
+							<img src="./imagens/tlou2.jpg" width="15%" height="30%"/>
+							<p id="tlou2">The Last of Us: Part 2</p>
+							<p id="tlou2-value">R$ 150</p>
+						</a>
+					</div>
+					
+					<div>
+						<a onclick="ps5FRegister()">
+							<img src="./imagens/ps5_fisica.jpg" width="15%" height="30%"/>
+							<p id="ps5F">Console Playstation 5 Edição c/ leitor de disco</p>
+							<p id="ps5F-value">R$ 4500</p>
+						</a>
+					</div>
+					
+					<div>
+						<a onclick="ps5DRegister()">
+							<img src="./imagens/ps5_digital.jpg" width="15%" height="30%"/>
+							<p id="ps5D">Console Playstation 5 Edição s/ leitor de disco</p>
+							<p id="ps5D-value">R$ 4000</p>
+						</a>
+					</div>
+					
+					<div>
+						<a onclick="dualsenseRegister()">
+							<img src="./imagens/dualsense.jpg" width="15%" height="30%"/>
+							<p id="dualsense">Dualsense Midnight Purple</p>
+							<p id="dualsense-value">R$ 350</p>
+						</a>
+					</div>
+					
+					<div>
+						<a onclick="foneRegister()">
+							<img src="./imagens/fone.jpg" width="15%" height="30%"/>
+							<p id="fone">Headset sem fio PULSE 3D - PlayStation 5</p>
+							<p id="fone-value">R$ 500</p>
+						</a>
+					</div>
+					
+					<div>
+						<a onclick="vrRegister()">
+							<img src="./imagens/ps_vr.jpg" width="15%" height="30%"/>
+							<p id="vr">Playstation V.R</p>
+							<p id="vr-value">R$ 3800</p>
+						</a>
+					</div>
+					
+					<div>
+						<a onclick="midiaRegister()">
+							<img src="./imagens/midia_ps5.jpg" width="15%" height="30%"/>
+							<p id="midia">Controle de Mídia - PlayStation 5</p>
+							<p id="midia-value">R$ 130</p>
+						</a>
+					</div>
+					
+					<div>
+						<a onclick="acRegister()">
+							<img src="./imagens/ac.jpg" width="15%" height="30%"/>
+							<p id="ac">Animal Crossing: New Horizons</p>
+							<p id="ac-value">R$ 350</p>
+						</a>
+					</div>
+					
+					<div>
+						<a onclick="marioRegister()">
+							<img src="./imagens/mario.jpg" width="15%" height="30%"/>
+							<p id="mario">Mario Party: Superstars</p>
+							<p id="mario-value">R$ 330</p>
+						</a>
+					</div>
+					
+					<div>
+						<a onclick="zeldaRegister()">
+							<img src="./imagens/zelda.jpg" width="15%" height="30%"/>
+							<p id="zelda">The Legend of Zelda: Breath of the Wild</p>
+							<p id="zelda-value">R$ 270</p>
+						</a>
+					</div>
+					
+					<div>
+						<a onclick="pokemonRegister()">
+							<img src="./imagens/pokemon.jpg" width="15%" height="30%"/>
+							<p id="pokemon">Pokémon Legends Arceus</p>
+							<p id="pokemon-value">R$ 400</p>
+						</a>
+					</div>
+					
+
+					<div>
+						<a onclick="v2Register()">
+							<img src="./imagens/n_v2.jpg" width="15%" height="30%"/>
+							<p id="v2">Nintendo Switch Gray</p>
+							<p id="v2-value">R$ 2500</p>
+						</a>
+					</div>
+					
+					<div>
+						<a onclick="oledRegister()">
+							<img src="./imagens/n_oled.jpg" width="15%" height="30%"/>
+							<p id="oled">Nintendo Switch Oled Branco</p>
+							<p id="oled-value">R$ 3000</p>
+						</a>
+					</div>
+					
+					<div>
+						<a onclick="liteRegister()">
+							<img src="./imagens/n_lite.png" width="15%" height="30%"/>
+							<p id="lite">Nintendo Switch Lite</p>
+							<p id="lite-value">R$ 1600</p>
+						</a>
+					</div>
+					
+						<ul id="list">
+							<li>
+								<p id="cart-list"></p>
+							</li>
+							<li>
+								<p id="cart-value"></p>
+							</li>
+						</ul>
+					
+				<script type="text/javascript">
+					let cartAdd = document.getElementById('cart-list')
+					let cartAddValue = document.getElementById('cart-value')
+					
+							let eldenRing = document.getElementById('elden-ring')
+							let eldenRingValue = document.getElementById('elden-ring-value')
+							
+
+							let forza = document.getElementById('forza')
+							let forzaValue = document.getElementById('forza-value')
+							
+							let halo = document.getElementById('halo')
+							let haloValue = document.getElementById('halo-value')
+							
+							let controle = document.getElementById('controle')
+							let controleValue = document.getElementById('controle-value')
+							
+							let seriesX = document.getElementById('seriesX')
+							let seriesXValue = document.getElementById('seriesX-value')
+							
+							let seriesS = document.getElementById('seriesS')
+							let seriesSValue = document.getElementById('seriesS-value')
+							
+							let ghost = document.getElementById('ghost')
+							let ghostValue = document.getElementById('ghost-value')
+							
+							let miles = document.getElementById('miles')
+							let milesValue = document.getElementById('miles-value')
+							
+							let ratchet = document.getElementById('ratchet')
+							let ratchetValue = document.getElementById('ratchet-value')
+							
+							let tlou2 = document.getElementById('tlou2')
+							let tlou2Value = document.getElementById('tlou2-value')
+							
+							let ps5F = document.getElementById('ps5F')
+							let ps5FValue = document.getElementById('ps5F-value')
+							
+							let ps5D = document.getElementById('ps5D')
+							let ps5DValue = document.getElementById('ps5D-value')
+							
+							let dualsense = document.getElementById('dualsense')
+							let dualsenseValue = document.getElementById('dualsense-value')
+							
+							let fone = document.getElementById('fone')
+							let foneValue = document.getElementById('fone-value')
+							
+							let vr = document.getElementById('vr')
+							let vrValue = document.getElementById('vr-value')
+							
+							let midia = document.getElementById('midia')
+							let midiaValue = document.getElementById('midia-value')
+							
+							let ac = document.getElementById('ac')
+							let acValue = document.getElementById('ac-value')
+							
+							let mario = document.getElementById('mario')
+							let marioValue = document.getElementById('mario-value')
+							
+							let zelda = document.getElementById('zelda')
+							let zeldaValue = document.getElementById('zelda-value')
+							
+							let pokemon = document.getElementById('pokemon')
+							let pokemonValue = document.getElementById('pokemon-value')
+							
+							let v2 = document.getElementById('v2')
+							let v2Value = document.getElementById('v2-value')
+							
+							let oled = document.getElementById('oled')
+							let oledValue = document.getElementById('oled-value')
+							
+							let lite = document.getElementById('lite')
+							let liteValue = document.getElementById('lite-value')
+							
+							
+							
+							
+					
+					function eldenRegister () {
+						cartAdd.textContent += eldenRing.innerHTML + ', '
+						cartAddValue.textContent += eldenRingValue.innerHTML + '+  '
+					}
+					
+					function forzaRegister () {
+						cartAdd.textContent += forza.innerHTML + ', '
+						cartAddValue.textContent += forzaValue.innerHTML + '+  '
+					}
+					
+					function haloRegister () {
+						cartAdd.textContent += halo.innerHTML + ', '
+						cartAddValue.textContent += haloValue.innerHTML + '+  '
+					}
+					
+					function controleRegister () {
+						cartAdd.textContent += controle.innerHTML + ', '
+						cartAddValue.textContent += controleValue.innerHTML + '+  '
+					}
+					
+					function seriesXRegister () {
+						cartAdd.textContent += seriesX.innerHTML + ', '
+						cartAddValue.textContent += seriesXValue.innerHTML + '+  '
+					}
+					
+					function seriesSRegister () {
+						cartAdd.textContent += seriesS.innerHTML + ', '
+						cartAddValue.textContent += seriesSValue.innerHTML + '+  '
+					}
+					
+					function ghostRegister () {
+						cartAdd.textContent += ghost.innerHTML + ', '
+						cartAddValue.textContent += ghostValue.innerHTML + '+  '
+					}
+					
+					function milesRegister () {
+						cartAdd.textContent += miles.innerHTML + ', '
+						cartAddValue.textContent += milesValue.innerHTML + '+  '
+					}
+					
+					function ratchetRegister () {
+						cartAdd.textContent += ratchet.innerHTML + ', '
+						cartAddValue.textContent += ratchetValue.innerHTML + '+  '
+					}
+					
+					function tlou2Register () {
+						cartAdd.textContent += tlou2.innerHTML + ', '
+						cartAddValue.textContent += tlou2Value.innerHTML + '+  '
+					}
+					
+					function ps5FRegister () {
+						cartAdd.textContent += ps5F.innerHTML + ', '
+						cartAddValue.textContent += ps5FValue.innerHTML + '+  '
+					}
+					
+					function ps5DRegister () {
+						cartAdd.textContent += ps5D.innerHTML + ', '
+						cartAddValue.textContent += ps5DValue.innerHTML + '+  '
+					}
+					
+					function dualsenseRegister () {
+						cartAdd.textContent += dualsense.innerHTML + ', '
+						cartAddValue.textContent += dualsenseValue.innerHTML + '+  '
+					}
+					
+					function foneRegister () {
+						cartAdd.textContent += fone.innerHTML + ', '
+						cartAddValue.textContent += foneValue.innerHTML + '+  '
+					}
+					
+					function vrRegister () {
+						cartAdd.textContent += vr.innerHTML + ', '
+						cartAddValue.textContent += vrValue.innerHTML + '+  '
+					}
+					
+					function midiaRegister () {
+						cartAdd.textContent += midia.innerHTML + ', '
+						cartAddValue.textContent += midiaValue.innerHTML + '+  '
+					}
+					
+					function acRegister () {
+						cartAdd.textContent += ac.innerHTML + ', '
+						cartAddValue.textContent += acValue.innerHTML + '+  '
+					}
+					
+					function marioRegister () {
+						cartAdd.textContent += mario.innerHTML + ', '
+						cartAddValue.textContent += marioValue.innerHTML + '+  '
+					}
+					
+					function zeldaRegister () {
+						cartAdd.textContent += zelda.innerHTML + ', '
+						cartAddValue.textContent += zeldaValue.innerHTML + '+  '
+					}
+					
+					function pokemonRegister () {
+						cartAdd.textContent += pokemon.innerHTML + ', '
+						cartAddValue.textContent += pokemonValue.innerHTML + '+  '
+					}
+					
+					function v2Register () {
+						cartAdd.textContent += v2.innerHTML + ', '
+						cartAddValue.textContent += v2Value.innerHTML + '+  '
+					}
+					
+					function oledRegister () {
+						cartAdd.textContent += oled.innerHTML + ', '
+						cartAddValue.textContent += oledValue.innerHTML + '+  '
+					}
+					
+					function liteRegister () {
+						cartAdd.textContent += lite.innerHTML + ', '
+						cartAddValue.textContent += liteValue.innerHTML + '+  '
+					}
+					
+					
+					
+				</script>
+				
+	
+		
+			</body>
+	</html>
